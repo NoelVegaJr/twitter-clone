@@ -14,11 +14,11 @@ export default async function RootLayout({
   }
   return (
     <div className="h-screen flex">
-      <div className="relative h-full max-w-5xl w-full mx-auto border border-red-600">
+      <div className="relative h-full max-w-5xl w-full mx-auto">
         <div className="absolute -left-72 top-6">
           <Navigation />
         </div>
-        <div className=" border-x h-full w-full">{children}</div>
+        <div className=" border-x border-black h-full w-full">{children}</div>
       </div>
     </div>
   );

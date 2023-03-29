@@ -24,7 +24,7 @@ export default function Navigation() {
         <Link
           key={link.name}
           href={`/${link.name}`}
-          className="flex items-items gap-6 text-2xl"
+          className="flex items-items gap-x-6 text-2xl py-2 px-4 hover:bg-gray-100 transition-all duration-200 rounded-full w-fit"
         >
           {link.icon}
           {link.name[0].toUpperCase() + link.name.slice(1)}
